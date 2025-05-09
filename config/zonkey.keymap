@@ -209,8 +209,8 @@
         layer_1 {
             bindings = <
 &kp JP_HANZEN  &trans  &trans  &kp HOME          &kp PAGE_UP                                    &kp BACKSLASH  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp TILDE
-&kp TAB        &trans  &trans  &kp END           &kp PAGE_DOWN  &trans                &kp PLUS  &kp EQUAL      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp TAB
-&trans         &trans  &trans  &trans            &trans         &trans                &kp PIPE  &kp NUMBER_0   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &moH
+&kp TAB        &trans  &trans  &kp END           &kp PAGE_DOWN  &trans                &kp PLUS  &kp EQUAL      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp COLON
+&trans         &trans  &trans  &trans            &trans         &trans                &kp PIPE  &kp NUMBER_0   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp TAB
 &trans         &trans  &trans  &lt 5 INT_HENKAN  &lt 4 SPACE    &lt 1 INT_MUHENKAN              &trans         &trans                                               &kp PRINTSCREEN
             >;
 
