@@ -230,7 +230,7 @@
 
         layer_3 {
             bindings = <
-&trans   &trans                  &trans  &trans                   &trans                                     &kp INS  &trans          &kp UP_ARROW    &trans           &trans
+&kp ESC  &trans                  &trans  &trans                   &trans                                     &kp INS  &trans          &kp UP_ARROW    &trans           &trans
 &kp TAB  &trans                  &trans  &trans                   &trans       &trans                &trans  &trans   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
 &trans   &kp LG(LS(LEFT_ARROW))  &trans  &kp LG(LS(RIGHT_ARROW))  &trans       &trans                &trans  &trans   &trans          &trans          &trans           &trans
 &trans   &trans                  &trans  &lt 3 INT_HENKAN         &lt 6 SPACE  &lt 5 INT_MUHENKAN            &trans   &trans                                                   &trans
