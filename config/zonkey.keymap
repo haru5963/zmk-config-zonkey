@@ -219,10 +219,10 @@
 
         layer_2 {
             bindings = <
-&kp F1   &kp F2     &kp F3     &kp F4            &kp F5                                          &kp F6      &kp F7    &kp F8    &kp F9    &kp F10
-&kp TAB  &kp LC(S)  &kp LC(D)  &kp LC(F)         &kp LC(G)    &trans                &kp LG(TAB)  &kp LC(F6)  &mkp MB1  &mkp MB2  &mkp MB4  &kp F11
-&trans   &kp LC(Z)  &kp LC(X)  &kp LC(C)         &kp LC(V)    &kp LC(B)             &kp LBKT     &kp LPAR    &kp RPAR  &kp LBRC  &kp RBRC  &kp F12
-&trans   &trans     &trans     &lt 6 INT_HENKAN  &lt 2 SPACE  &lt 4 INT_MUHENKAN                 &trans      &trans                                 &trans
+&kp F1   &kp F2     &kp F3     &kp F4            &kp F5                                       &kp F6      &kp F7    &kp F8    &kp F9    &kp F10
+&kp TAB  &kp LC(S)  &kp LC(D)  &kp LC(F)         &kp LC(G)    &trans                &kp RBKT  &kp LC(F6)  &mkp MB1  &mkp MB2  &mkp MB4  &kp F11
+&trans   &kp LC(Z)  &kp LC(X)  &kp LC(C)         &kp LC(V)    &kp LC(B)             &kp LBKT  &kp LPAR    &kp RPAR  &kp LBRC  &kp RBRC  &kp F12
+&trans   &trans     &trans     &lt 6 INT_HENKAN  &lt 2 SPACE  &lt 4 INT_MUHENKAN              &trans      &trans                                 &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -230,10 +230,10 @@
 
         layer_3 {
             bindings = <
-&kp ESC  &trans                  &trans  &kp HOME                 &kp PAGE_UP                                  &kp INS  &trans          &kp UP_ARROW    &trans           &trans
-&kp TAB  &trans                  &trans  &kp END                  &kp PAGE_DOWN  &trans                &trans  &trans   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
-&trans   &kp LG(LS(LEFT_ARROW))  &trans  &kp LG(LS(RIGHT_ARROW))  &trans         &trans                &trans  &trans   &trans          &trans          &trans           &trans
-&trans   &trans                  &trans  &lt 3 INT_HENKAN         &lt 6 SPACE    &lt 5 INT_MUHENKAN            &kp DEL  &trans                                                   &trans
+&kp ESC  &trans                  &trans  &kp HOME                 &kp PAGE_UP                                  &kp INS      &trans          &kp UP_ARROW    &trans           &trans
+&kp TAB  &trans                  &trans  &kp END                  &kp PAGE_DOWN  &trans                &trans  &kp LG(TAB)  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
+&trans   &kp LG(LS(LEFT_ARROW))  &trans  &kp LG(LS(RIGHT_ARROW))  &trans         &trans                &trans  &trans       &trans          &trans          &trans           &trans
+&trans   &trans                  &trans  &lt 3 INT_HENKAN         &lt 6 SPACE    &lt 5 INT_MUHENKAN            &kp DEL      &trans                                                   &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
