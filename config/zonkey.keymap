@@ -188,6 +188,15 @@
 
             tap-ms = <20>;
         };
+
+        scroll_left_right: scroll_left_right {
+            compatible = "zmk,behavior-sensor-rotate";
+            label = "SCROLL_LEFT_RIGHT";
+            #sensor-binding-cells = <0>;
+            bindings = <&msc SCRL_LEFT>, <&msc SCRL_RIGHT>;
+
+            tap-ms = <20>;
+        };
     };
 
     keymap {
@@ -214,15 +223,15 @@
 &trans   &trans  &trans             &lt 5 INT_HENKAN  &lt 4 SPACE  &lt 1 INT_MUHENKAN              &trans         &trans                                               &kp RIGHT_ALT
             >;
 
-            sensor-bindings = <&scroll_up_down>;
+            sensor-bindings = <&scroll_left_right>;
         };
 
         layer_2 {
             bindings = <
-&kp F1   &kp F2     &kp F3     &kp F4            &kp F5                                     &kp F6      &kp F7          &kp F8           &kp F9    &kp F10
-&kp TAB  &kp LC(S)  &kp LC(D)  &kp LC(F)         &kp LC(G)    &trans                &trans  &kp LC(F6)  &mkp MB1        &mkp MB2         &mkp MB4  &kp F11
-&trans   &kp LC(Z)  &kp LC(X)  &kp LC(C)         &kp LC(V)    &kp LC(B)             &trans  &trans      &msc SCRL_LEFT  &msc SCRL_RIGHT  &trans    &kp F12
-&trans   &trans     &trans     &lt 6 INT_HENKAN  &lt 2 SPACE  &lt 4 INT_MUHENKAN            &trans      &trans                                              &kp RS(RCTRL)
+&kp F1   &kp F2     &kp F3     &kp F4            &kp F5                                     &kp F6      &kp F7    &kp F8    &kp F9    &kp F10
+&kp TAB  &kp LC(S)  &kp LC(D)  &kp LC(F)         &kp LC(G)    &trans                &trans  &kp LC(F6)  &mkp MB1  &mkp MB2  &mkp MB4  &kp F11
+&trans   &kp LC(Z)  &kp LC(X)  &kp LC(C)         &kp LC(V)    &kp LC(B)             &trans  &trans      &trans    &trans    &trans    &kp F12
+&trans   &trans     &trans     &lt 6 INT_HENKAN  &lt 2 SPACE  &lt 4 INT_MUHENKAN            &trans      &trans                                 &kp RS(RCTRL)
             >;
 
             sensor-bindings = <&scroll_up_down>;
