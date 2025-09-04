@@ -217,10 +217,10 @@
 
         layer_1 {
             bindings = <
-&kp ESC  &trans  &kp DOLLAR         &kp LBKT          &kp RBKT                                     &kp BACKSLASH  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp GRAVE
-&kp TAB  &trans  &kp DOUBLE_QUOTES  &kp LPAR          &kp RPAR     &trans                &kp PLUS  &kp EQUAL      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp COLON
-&trans   &trans  &trans             &kp SINGLE_QUOTE  &kp LBRC     &kp RBRC              &kp TAB   &kp NUMBER_0   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans
-&trans   &trans  &trans             &lt 5 INT_HENKAN  &lt 4 SPACE  &lt 1 INT_MUHENKAN              &trans         &lt 3 RET                                            &kp RIGHT_ALT
+&kp ESC  &trans  &kp DOLLAR         &kp LBKT          &kp RBKT                                     &kp BACKSLASH     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp GRAVE
+&kp TAB  &trans  &kp DOUBLE_QUOTES  &kp LPAR          &kp RPAR     &trans                &kp PLUS  &kp EQUAL         &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp COLON
+&trans   &trans  &trans             &kp SINGLE_QUOTE  &kp LBRC     &kp RBRC              &kp TAB   &kp NUMBER_0      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans
+&trans   &trans  &trans             &lt 5 INT_HENKAN  &lt 4 SPACE  &lt 1 INT_MUHENKAN              &kp INT_MUHENKAN  &lt 3 RET                                            &kp RIGHT_ALT
             >;
 
             sensor-bindings = <&scroll_left_right>;
